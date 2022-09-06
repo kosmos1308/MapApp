@@ -14,7 +14,13 @@ struct LocationView: View {
  
     var body: some View {
         ZStack {
-            Map(coordinateRegion: $vm.mapRegion)
+            Map(coordinateRegion: $vm.mapRegion,
+                annotationItems: vm.locations) { location in
+                MapAnnotation(coordinate: location.coordinates) {
+                    Text("Hello")
+                    LocationMapAnnotationView()
+                }
+            }
                 .ignoresSafeArea()
             
             VStack(spacing: 0) {
@@ -79,6 +85,5 @@ extension LocationView {
                 radius: 20,
                 x: 0,
                 y: 15)
-        
     }
 }

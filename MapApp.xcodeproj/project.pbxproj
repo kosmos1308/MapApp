@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E908B70628C7BE3300171738 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E908B70528C7BE3300171738 /* LocationMapAnnotationView.swift */; };
 		E951AEEA28BE9CD300FB5B6A /* MapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951AEE928BE9CD300FB5B6A /* MapAppApp.swift */; };
 		E951AEEC28BE9CD300FB5B6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951AEEB28BE9CD300FB5B6A /* ContentView.swift */; };
 		E951AEF128BE9CD700FB5B6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E951AEF028BE9CD700FB5B6A /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E908B70528C7BE3300171738 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		E951AEE628BE9CD300FB5B6A /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E951AEE928BE9CD300FB5B6A /* MapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppApp.swift; sourceTree = "<group>"; };
 		E951AEEB28BE9CD300FB5B6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				E9F3DCF328BFEE58003DE998 /* LocationView.swift */,
 				E995CC1328C1307F002F91FE /* LocationsListView.swift */,
 				E9FA027F28C65CE200EFB529 /* LocationPreviewView.swift */,
+				E908B70528C7BE3300171738 /* LocationMapAnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E951AF0028BEA4CE00FB5B6A /* LocationsDataService.swift in Sources */,
+				E908B70628C7BE3300171738 /* LocationMapAnnotationView.swift in Sources */,
 				E995CC1428C1307F002F91FE /* LocationsListView.swift in Sources */,
 				E9FA028028C65CE200EFB529 /* LocationPreviewView.swift in Sources */,
 				E9F3DCF628BFF20C003DE998 /* LocationViewModel.swift in Sources */,
