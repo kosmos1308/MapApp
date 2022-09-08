@@ -44,6 +44,7 @@ struct LocationDetailView: View {
 struct LocationDetatilView_Previews: PreviewProvider {
     static var previews: some View {
         LocationDetailView(location: LocationsDataService.locations.first!)
+            .preferredColorScheme(.dark)
             .environmentObject(LocationViewModel())
     }
         
@@ -69,6 +70,7 @@ extension LocationDetailView {
             Text(location.name)
                 .font(.largeTitle)
                 .fontWeight(.semibold)
+                .foregroundColor(.primary)
             Text(location.cityName)
                 .font(.subheadline)
                 .foregroundColor(.secondary)
